@@ -15,7 +15,7 @@ const Projects = () => {
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
           Some of my Projects that are closest to my heart.
-          Will Soon Update this page and add more projects.
+
         </p>
       </div>
 
@@ -33,12 +33,15 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className='mt-5 flex flex-col'>
-              <h4 className='text-2xl font-poppins font-semibold'>
+            <div className='mt-5 grid grid-cols-12 gap-2'>
+              <h4 className='text-2xl font-poppins font-semibold col-span-11'>
                 {project.name}
               </h4>
-              <p className='mt-2 text-slate-500'>{project.description}</p>
-              <div className='mt-5 flex items-center gap-2 font-poppins'>
+
+              <div className=" col-span-12 h-28 flex justify-center">
+                <p className='mt-2 text-slate-500 '>{project.description}</p>
+              </div>
+              <div className='mt-5 flex items-center gap-2 font-poppins col-span-12'>
                 <Link
                   to={project.link}
                   target='_blank'
@@ -58,12 +61,6 @@ const Projects = () => {
         ))}
       </div>
 
-      <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>
-          Will Soon Update this page and add more projects.
-        </p>
-      </div>
-      <hr className='border-slate-200' />
       <CTA />
     </section>
   );

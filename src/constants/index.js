@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, quadb} from "../assets/images";
+import { meta, shopify, starbucks, tesla, quadb } from "../assets/images";
 import {
     car,
     contact,
@@ -23,8 +23,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    outfit
-    
+    outfit,
+    SprayFoam
+
 } from "../assets/icons";
 
 export const skills = [
@@ -86,7 +87,7 @@ export const experiences = [
         company_name: "QuadB technologies",
         icon: quadb,
         iconBg: "#87C4FF",
-        date: "January 2024 - Present",
+        date: "January 2024 - May2024",
         points: [
             "Developing and maintaining smart Contracts written in sophia language on aeternity BlockChain",
             "Collaborating with various colleges to organize hackathons on their campuses and educating students about the DeFi platform.",
@@ -117,9 +118,16 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: outfit,
-        theme: 'btn-back-blue    ',
+        theme: 'btn-back-blue',
         name: 'Gen Ai powered Outfit Generator',
         description: 'In Collaboration with team members developed Outfit Generator which enhance the user shopping experience by offering personalized, trendy, and cohesive outfit ideas.',
         link: 'https://github.com/ByteWiizard/Gen-AI-powered-fashion-outfit',
-    },  
+    },
+    {
+        iconUrl: SprayFoam,
+        theme: 'btn-back-red',
+        name: 'Spray Foam Construction Website',
+        description: `developed Metro Vancouver Spray  Foam's website. This project enhances the user experience by providing clear, compelling information on spray foam insulation, driving engagement, and conversions with a sleek, intuitive design.`,
+        link: 'https://metrovancouversprayfoam.com/',
+    }
 ];

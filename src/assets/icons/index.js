@@ -20,6 +20,7 @@ import car from './car.svg'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
 import outfit from './outfit.svg'
+import SprayFoam from './SprayFoam.svg'
 import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
 import threads from './threads.svg'
@@ -57,5 +58,6 @@ export {
     contact,
     soundon,
     soundoff,
-    outfit
+    outfit,
+    SprayFoam
 }
