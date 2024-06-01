@@ -127,7 +127,7 @@ export const projects = [
         iconUrl: SprayFoam,
         theme: 'btn-back-red',
         name: 'Spray Foam Construction Website',
-        description: `developed Metro Vancouver Spray  Foam's website. This project enhances the user experience by providing clear, compelling information on spray foam insulation, driving engagement, and conversions with a sleek, intuitive design.`,
+        description: `Developed Metro Vancouver Spray  Foam's website. This project enhances the user experience by providing clear, compelling information on spray foam insulation, driving engagement, and conversions with a sleek, intuitive design.`,
         link: 'https://metrovancouversprayfoam.com/',
     }
 ];
